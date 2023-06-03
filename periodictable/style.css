@@ -1,0 +1,24 @@
+.orange{
+    background-color: #f0843c;
+}
+.blue{
+    background-color: rgb(89, 180, 246);
+}
+.yellow{
+    background-color: rgb(224, 224, 61);
+}
+.green{
+    background-color: rgb(18, 236, 18);
+}
+.gap{
+    border: none;
+}
+th{
+    border: none;
+}
+.middle{
+    border: none;
+}
+tr{
+    border: 1px;
+}
