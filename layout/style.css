@@ -1,0 +1,33 @@
+div{
+    border: 1px outset red;
+    display: grid;
+    background-color: aqua;
+    padding: 10px;
+    margin: 7px;
+}
+.article{
+    grid-column: 2;
+    grid-row:3;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: end;
+}
+.aside{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgb(8, 204, 70);
+}
+.header{
+    grid-column: 1/span 2;
+    background-color: rgb(37, 200, 146);
+}
+.item{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
